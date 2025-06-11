@@ -1,0 +1,9 @@
+{
+    "name": "import-lerobot-dataset",
+    "description": "Loads a dataset from Hugging Face LeRobot into Roboto",
+    "compute_requirements": {
+        "vCPU": 512,
+        "memory": 1024,
+        "storage": 21
+    }
+}

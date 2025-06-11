@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leroboto"
+version = "0.0.1"
+description = "A Python library for working with Hugging Face LeRobot datasets"
+authors = [
+  { name="Roboto", email="support@roboto.ai" },
+]
+license = { text = "MPL-2.0" }
+classifiers = [
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "lerobot==0.1.0",
+    "roboto>=0.20.1",
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.urls]
+"Homepage" = "https://github.com/roboto-ai/leroboto"
+"Documentation" = "https://github.com/roboto-ai/leroboto"
+"Source" = "https://github.com/roboto-ai/leroboto"
+"Changelog" = "https://github.com/roboto-ai/leroboto/releases"

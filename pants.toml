@@ -1,0 +1,25 @@
+[GLOBAL]
+pants_version = "2.26.0"
+
+backend_packages = [
+    "pants.backend.awslambda.python",
+    "pants.backend.docker",
+    "pants.backend.experimental.adhoc",
+    "pants.backend.experimental.python",
+    "pants.backend.tools.preamble",
+    "pants.backend.python",
+    "pants.backend.python.lint.autoflake",
+    "pants.backend.python.lint.black",
+    "pants.backend.python.lint.flake8",
+    "pants.backend.python.lint.isort",
+    "pants.backend.python.typecheck.mypy",
+    "pants.backend.shell",
+]
+
+[python]
+enable_resolves = true
+default_resolve = "python-default"
+interpreter_constraints = ["==3.10.*"]
+
+[python.resolves]
+python-default = "build-support/lockfiles/python-default.lock"
