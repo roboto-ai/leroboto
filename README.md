@@ -66,7 +66,7 @@ Populate it by copying the provided example in `.env.example`:
 HF_TOKEN=hf_...
 
 # Roboto token 
-# Create one here: https://app.roboto.ai/settings?tab=2
+# Create one here: https://app.roboto.ai/settings/tokens
 ROBOTO_API_KEY=roboto_pat_... # Optional if you already have: `~/.roboto/config.json`
 ROBOTO_ORG_ID=og_...          # Optional if you're just in 1 org
 
